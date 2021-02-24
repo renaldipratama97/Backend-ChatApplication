@@ -1,28 +1,39 @@
-# Backend-ChatON-Application
-API creation documentation for the zwallet web application.
+# Backend ChatON Application
 
-## Getting Started
-To run the telegram backend, you must install the package in your IDE favorite. I will guide you so you can run it on your laptop or computer.
+This API is for Hiring Channel App where Engineers and Company can communicate for looking/hiring jobs.
 
-### Prerequisites
+## Built With
+* [Node.js](https://nodejs.org/en/)
+* [Express.js](https://expressjs.com/)
 
-```
+## Requirements
+* [Node.js](https://nodejs.org/en/)
+* [Postman](https://www.getpostman.com/) for testing
+* [Database](database-example.sql)
+
+## Installation
+
+Clone this repository and then use the package manager npm to install dependencies.
+
+```bash
 git clone https://github.com/renaldipratama97/Backend-ChatApplication.git
 ```
 
-### Built with
-* **[Node JS](https://nodejs.org/en/download/)**
-* **[Express JS](http://expressjs.com/en/starter/installing.html)**
-
-### Requirements
-* **[Node JS](https://nodejs.org/en/download/)**
-* **[Postman](https://www.postman.com/)**
-* **[Frontend ChatON](https://github.com/renaldipratama97/Frontend-ChatApplication.git)**
-
-### Add env
-Create .env file in your root project folder.
+```bash
+npm install
 ```
-PORT = 
+or
+```bash
+yarn install
+```
+
+## Setup .env example
+
+Create .env file in your root project folder.
+
+```env
+
+PORT = 1000
 
 DB_HOST = 
 DB_USER = 
@@ -36,18 +47,30 @@ URL_LOGIN =
 
 EMAIL_USERNAME = 
 EMAIL_PASSWORD = 
+
 ```
 
-### To run
+## Run the app
+
+Development mode
+
+```bash
+npm run dev
 ```
-npm run dev / node app.js
-yarn dev / node app.js
+or
+```bash
+yarn dev
 ```
 
-## Get collection
+## REST API
 
+You can view my Postman collection [here](https://app.getpostman.com/run-collection/e21e2d16893cca6177a2) </br>
+or </br>
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/e21e2d16893cca6177a2)
-  
+
 ## Author
 
   * **Renaldi Pratama Tumanggor** - [renaldipratama97](https://github.com/renaldipratama97)
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
