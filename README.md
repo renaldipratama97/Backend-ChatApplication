@@ -9,7 +9,7 @@ This API is for a Chat Application called the ChatON Application, the features i
 ## Requirements
 * [Node.js](https://nodejs.org/en/)
 * [Postman](https://www.getpostman.com/) for testing
-* [Database](database-example.sql)
+* [Database](chat-app.sql)
 
 ## Installation
 
@@ -38,7 +38,7 @@ PORT = 1000
 DB_HOST = 
 DB_USER = 
 DB_PASSWORD
-DB_NAME = telegram
+DB_NAME = 
 
 BASE_URL = 
 BASE_URL_IMG = 
