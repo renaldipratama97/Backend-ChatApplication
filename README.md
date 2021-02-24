@@ -1,6 +1,6 @@
 # Backend ChatON Application
 
-This API is for a Chat Application called the ChatON Application, the features in this API are registering, logging in, changing profiles, viewing other user profiles, realtime private chat using socket.io.s
+This API is for a Chat Application called the ChatON Application, the features in this API register, login, change profiles, view other user profiles, realtime private chat using socket.io
 
 ## Built With
 * [Node.js](https://nodejs.org/en/)
