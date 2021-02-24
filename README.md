@@ -1,6 +1,6 @@
 # Backend ChatON Application
 
-This API is for Hiring Channel App where Engineers and Company can communicate for looking/hiring jobs.
+This API is for a Chat Application called the ChatON Application, the features in this API are registering, logging in, changing profiles, viewing other user profiles, realtime private chat using socket.io.s
 
 ## Built With
 * [Node.js](https://nodejs.org/en/)
@@ -61,6 +61,10 @@ or
 ```bash
 yarn dev
 ```
+
+## Relate Project
+
+* [Frontend ChatON](https://github.com/renaldipratama97/Frontend-ChatApplication.git)
 
 ## REST API
 
